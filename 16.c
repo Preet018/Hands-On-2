@@ -2,7 +2,7 @@
 ============================================================================================
  * Name: 16.c
  * Author: Preet Chandrakar
- * Description: Write a simple program to create a pipe, write to the pipe, read from pipe and display on the monitor.
+ * Description: Write a program to send and receive data from parent to child vice versa. Use two way communication.
  * Date: 21st Sept, 2025
 =============================================================================================
 */
