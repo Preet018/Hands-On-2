@@ -2,7 +2,7 @@
 ============================================================================
 Name : 25h.c
 Author : Preet Chandrakar
-Description : Write a program to create a message queue and print the key and message queue id.
+Description : Write a program to print a message queue's (use msqid_ds and ipc_perm structures)
                 h. pid of the msgsnd and msgrcv
 Date: 21th Sept, 2025.
 ============================================================================
