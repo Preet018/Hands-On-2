@@ -14,7 +14,7 @@ Date: 21th Sep, 2025.
 
 int main()
 {
-    key_t key = ftok("/Users/veeralagarwal/Desktop/MTECH/SS/Hands_On_List2/my_unique_file28", 'a');
+    key_t key = ftok(".", 'a');
     int msqid = msgget(key, IPC_CREAT | 0666);
     struct msqid_ds st_to_set;
     struct msqid_ds st_to_read;
